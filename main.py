@@ -4,7 +4,7 @@ import time
 if __name__ == '__main__':
     f = open("output.txt", "w")
     counter = 0
-    while True:
+    while counter < 60:
         time.sleep(1)
         counter = counter + 1
         f.write(str(counter)+"\n")
